@@ -664,7 +664,14 @@ a.appspop:hover {
   background: url("../img/wallpaper.png") no-repeat;
   background-size: cover;
   background-position: right;
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/wallpaper.jpg', sizingMethod='scale')";
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/wallpaper.png', sizingMethod='scale')";
+}
+
+.pagebg.roundtable {
+  background: url("../img/roubdtable.jpg") no-repeat;
+  background-size: cover;
+  background-position: right;
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/roubdtable.jpg', sizingMethod='scale')";
 }
 
 /* line 97, ../sass/_backgrounds.scss */
@@ -1929,8 +1936,8 @@ li {
 .press .ted,
 .press .ard,
 .press .golem,
-.press .rbb 
-.press .wired 
+.press .rbb
+.press .wired
 .press .republica {
   height: 40px;
   margin-bottom: 30px;
@@ -3054,7 +3061,7 @@ input[type="text"] {
   padding-left: 400px;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
-                               /* Firefox 
+                               /* Firefox
 -webkit-box-sizing:border-box; /* Safari */
 }
 
