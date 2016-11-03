@@ -668,10 +668,10 @@ a.appspop:hover {
 }
 
 .pagebg.roundtable {
-  background: url("../img/roubdtable.jpg") no-repeat;
+  background: url("../img/roundtable.jpg") no-repeat;
   background-size: cover;
   background-position: right;
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/roubdtable.jpg', sizingMethod='scale')";
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/roundtable.jpg', sizingMethod='scale')";
 }
 
 /* line 97, ../sass/_backgrounds.scss */
@@ -688,6 +688,20 @@ a.appspop:hover {
   background-size: cover;
   background-position: right;
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/karte2.png', sizingMethod='scale')";
+}
+
+.pagebg.community {
+  background: url("../img/karlsruhe.jpg") no-repeat;
+  background-size: cover;
+  background-position: right;
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/karlsruhe.jpg', sizingMethod='scale')";
+}
+
+.pagebg.stadt {
+  background: url("../img/stadt.jpg") no-repeat;
+  background-size: cover;
+  background-position: right;
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/stadt.jpg', sizingMethod='scale')";
 }
 
 /* line 111, ../sass/_backgrounds.scss */
